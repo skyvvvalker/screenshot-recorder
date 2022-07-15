@@ -1,0 +1,48 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        config {
+            keyAlias 'key'
+
+        }
+    }
+    compileSdkVersion 32
+    buildToolsVersion '32.1.0-rc1'
+    defaultConfig {
+        vectorDrawables.useSupportLibrary = true
+        applicationId "apk.screenshotrecorder"
+        minSdkVersion 21
+        targetSdkVersion 32
+        versionCode 1
+        versionName '1'
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        signingConfig signingConfigs.config
+    }
+    buildTypes {
+        release {
+            shrinkResources true
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            pseudoLocalesEnabled false
+        }
+        debug {
+            shrinkResources false
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            pseudoLocalesEnabled false
+            signingConfig signingConfigs.config
+        }
+    }
+    packagingOptions {
+        exclude 'META-INF/*'
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation 'androidx.appcompat:appcompat:1.4.2'
+}
