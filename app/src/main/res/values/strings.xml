@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Screenshot Recorder</string>
+    <string name="ok">OK</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete_all">Delete all</string>
+    <string name="settings">Settings</string>
+    <string name="share">Share</string>
+    <string name="jpeg_quality">JPEG Quality</string>
+    <string name="jpeg_quality_desc">Defines the compression quality of the image in percent. The lower the quality, the smaller the file size. Recommended value: %d%%</string>
+    <string name="thumb_size_desc">Defines the length of the longest side of the image in pixels. The lower the image size, the smaller the file size. Recommended value: %d pixels</string>
+    <string name="img_change">Image change detection</string>
+    <string name="img_change_desc">Defines the minimum change of lines in the image in compare to the last screenshot. A screenshot will be recorded as soon as the change in the image exceeds the amount. The lower the amount, the more screenshots will be taken. Recommended value: %d%%</string>
+    <string name="thumb_size">Image size</string>
+    <string name="please_wait">Please wait…</string>
+    <string name="ask_delete_all">Do you want delete all images?</string>
+    <string name="ask_delete">Do you want delete all selected images?</string>
+    <string name="grid_view">Grid view</string>
+    <string name="page_view">Page view</string>
+    <string name="start_capture">Start</string>
+    <string name="stop_capture">Stop</string>
+    <string name="select_all">Select all</string>
+    <string name="select_mode">Select mode</string>
+    <string name="record_interval">Record interval</string>
+    <string name="record_interval_desc">Defines the minimum interval between screenshots in seconds. The shorter the interval, the more screenshots will be taken. Recommended value: %d seconds</string>
+    <string name="seconds">seconds</string>
+    <string name="pixels">pixels</string>
+    <string name="mediaprojection_permission">This application needs a permission. In the next dialog click «START NOW».</string>
+    <string name="next">Next</string>
+    <string name="not_foreground">Exclude this application</string>
+    <string name="not_foreground_desc">Excludes this application from recording. This option is strongly recommended.</string>
+    <string name="auto_delete">Automatically delete</string>
+    <string name="auto_delete_desc">Automatically deletes records that are older than the specified days.</string>
+    <string name="days">days</string>
+    <string name="previous">Back</string>
+    <string name="delete_all_desc">Deletes all records.</string>
+    <string name="privacypolicy">Privacy Policy</string>
+    <string name="about">Info</string>
+    <string name="version">Version</string>
+    <string name="homepage">Homepage</string>
+    <string name="adv">This application is provided by:</string>
+</resources>
