@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="apk.screenrec.MainActivity">
+    <item
+        android:id="@+id/action_start"
+        android:icon="@drawable/ic_baseline_play_arrow_24"
+        app:iconTint="@color/colorWhite"
+        android:title="@string/start_capture"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_stop"
+        android:icon="@drawable/ic_baseline_pause_24"
+        app:iconTint="@color/colorWhite"
+        android:title="@string/stop_capture"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_share_mv1"
+        app:iconTint="@color/colorWhite"
+        android:title="@string/share"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_outline_share_24" />
+    <item
+        android:id="@+id/action_share_sv1"
+        app:iconTint="@color/colorWhite"
+        android:title="@string/share"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_outline_share_24" />
+    <item
+        android:id="@+id/action_delete_mv1"
+        app:iconTint="@color/colorWhite"
+        android:title="@string/delete"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_outline_delete_forever_24" />
+    <item
+        android:id="@+id/action_delete_sv1"
+        app:iconTint="@color/colorWhite"
+        android:title="@string/delete"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_outline_delete_forever_24" />
+    <item
+        android:id="@+id/action_cancel"
+        app:iconTint="@color/colorWhite"
+        android:title="@string/cancel"
+        android:icon="@drawable/ic_outline_cancel_24"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_menu_start"
+        android:icon="@drawable/ic_baseline_play_arrow_24"
+        android:title="@string/start_capture" />
+    <item
+        android:id="@+id/action_menu_stop"
+        android:icon="@drawable/ic_baseline_pause_24"
+        android:title="@string/stop_capture" />
+    <item
+        android:id="@+id/action_select_mode"
+        android:icon="@drawable/ic_outline_library_add_check_24"
+        android:title="@string/select_mode" />
+    <item
+        android:id="@+id/action_select_all"
+        android:icon="@drawable/ic_outline_select_all_24"
+        android:title="@string/select_all" />
+    <item
+        android:id="@+id/action_share_mv2"
+        android:icon="@drawable/ic_outline_share_24"
+        android:title="@string/share" />
+    <item
+        android:id="@+id/action_share_sv2"
+        android:icon="@drawable/ic_outline_share_24"
+        android:title="@string/share" />
+    <item
+        android:id="@+id/action_delete_mv2"
+        android:icon="@drawable/ic_outline_delete_forever_24"
+        android:title="@string/delete" />
+    <item
+        android:id="@+id/action_delete_sv2"
+        android:icon="@drawable/ic_outline_delete_forever_24"
+        android:title="@string/delete" />
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@drawable/ic_outline_settings_24"
+        android:title="@string/settings" />
+    <item
+        android:id="@+id/action_privacypolicy"
+        android:icon="@drawable/ic_outline_privacy_tip_24"
+        android:title="@string/privacypolicy" />
+    <item
+        android:id="@+id/action_about"
+        android:icon="@drawable/ic_outline_info_24"
+        android:title="@string/about" />
+</menu>
