@@ -1,0 +1,17 @@
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat">
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="actionBarTheme">@style/defaultToolbarStyle</item>
+    </style>
+    <style name="defaultToolbarStyle" parent="@style/Widget.AppCompat.ActionBar">
+        <item name="colorPrimary">@color/colorActionBarPrimary</item>
+        <item name="colorPrimaryDark">@color/colorActionBarPrimaryDark</item>
+        <item name="titleTextColor">@color/colorWhite</item>
+        <item name="actionOverflowButtonStyle">@style/overflowButtonStyle</item>
+    </style>
+    <style name="overflowButtonStyle" parent="@style/Widget.AppCompat.ActionButton.Overflow">
+        <item name="android:src">@drawable/ic_baseline_menu_36</item>
+        <item name="tint">@color/colorWhite</item>
+    </style>
+</resources>
